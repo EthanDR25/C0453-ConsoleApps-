@@ -43,18 +43,18 @@ namespace ConsoleAppProject.App02
             Console.WriteLine("Your BMI is " + bmi);
 
         }
-        public static void Main(String[] args)
-        {
-            BMI bmi = new BMI();
+        //public static void Main(String[] args)
+       // {
+           // BMI bmi = new BMI();
 
-            bmi.OutputHeading();
-            bmi.CalcuateBMI();
+          //  bmi.OutputHeading();
+          //  bmi.CalcuateBMI();
 
 
-        }
+       // }
     }
 
-   }
+}
 
 
 

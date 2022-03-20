@@ -21,12 +21,13 @@ namespace ConsoleAppProject
 
             Console.WriteLine();
             Console.WriteLine(" =================================================");
-            Console.WriteLine("    BNU CO453 Applications Programming 2021-2022! ");
-            Console.WriteLine("        by Ethan                                ");
+            Console.WriteLine("    BNU CO453 Applications Programming 2021-2022  ");
+            Console.WriteLine("                by Ethan Dias-Richards            ");
             Console.WriteLine(" =================================================");
             Console.WriteLine();
 
-            DistanceConverter converter = new DistanceConverter();
+            StudentGrades app03 = new StudentGrades();
+            app03.Run();
             
         }
     }
